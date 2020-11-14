@@ -24,7 +24,7 @@ class CategoryAdapter(context: Context, categories: List<Category>) : BaseAdapte
             holder = ViewHolder()
             holder.categoryImage = categoryView.findViewById(R.id.categoryImage)
             holder.categoryName = categoryView.findViewById(R.id.categoryName)
-            println("I exist for the first time!")
+            println("I exist for the première fois!")
             categoryView.tag = holder
         } else {
              holder = convertView.tag as ViewHolder
