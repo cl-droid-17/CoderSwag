@@ -1,4 +1,4 @@
-package com.example.coderswag.Services
+package com.example.coderswag.services
 
 import com.example.coderswag.Model.Category
 import com.example.coderswag.Model.Product
@@ -10,7 +10,7 @@ object DataService {
         Category("HOODIES", "hoodieimage"),
         Category("HATS", "hatimage"),
         Category("DIGITAL", "digitalgoodsimage")
-    )
+)
 
     val hats = listOf(
         Product("Devslopes Graphic Beanie", "$18", "hat1"),
@@ -31,6 +31,6 @@ object DataService {
         Product("Devslopes Badge Light Gray", "$20", "shirt2"),
         Product("Devslopes Logo Shirt Red", "$22", "shirt3"),
         Product("Devslopes Hustle", "$22", "shirt4"),
-        Product("Kickflip Studios", "$18", "shirt5"),
+        Product("Kickflip Studios", "$18", "shirt5")
         )
 }
